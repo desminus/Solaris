@@ -175,6 +175,10 @@
 		"Visored Sallet"	= /obj/item/clothing/head/roguetown/helmet/sallet/visored,
 		"Hounskull Bascinet" = /obj/item/clothing/head/roguetown/helmet/bascinet/pigface/hounskull,
 		"Etruscan Bascinet" = /obj/item/clothing/head/roguetown/helmet/bascinet/etruscan,
+		"sheriff"				= /obj/item/clothing/head/roguetown/helmet/heavy/sheriff
+		"wolf"					= /obj/item/clothing/head/roguetown/helmet/heavy/wolfplate
+		"Armet"					= /obj/item/clothing/head/roguetown/helmet/heavy/knight/armet
+		"Heavy Knight"			= /obj/item/clothing/head/roguetown/helmet/heavy/knight
 		"None"
 	)
 	var/helmchoice = input("Choose your Helm.", "TAKE UP HELMS") as anything in helmets
@@ -395,6 +399,10 @@
 		"Visored Sallet"		= /obj/item/clothing/head/roguetown/helmet/sallet/visored,
 		"Hounskull Bascinet" 	= /obj/item/clothing/head/roguetown/helmet/bascinet/pigface/hounskull,
 		"Etruscan Bascinet" 	= /obj/item/clothing/head/roguetown/helmet/bascinet/etruscan,
+		"sheriff"				= /obj/item/clothing/head/roguetown/helmet/heavy/sheriff
+		"wolf"					= /obj/item/clothing/head/roguetown/helmet/heavy/wolfplate
+		"Armet"					= /obj/item/clothing/head/roguetown/helmet/heavy/knight/armet
+		"Heavy Knight"			= /obj/item/clothing/head/roguetown/helmet/heavy/knight
 		"None"
 	)
 	var/helmchoice = input("Choose your Helm.", "TAKE UP HELMS") as anything in helmets
@@ -458,12 +466,18 @@
 	H.put_in_hands(giveweapon(H,"Sunmarch"), FALSE)
 
 	var/helmets = list(
-		"Pigface Bascinet" 		= /obj/item/clothing/head/roguetown/helmet/bascinet/pigface,
-		"Bascinet"				= /obj/item/clothing/head/roguetown/helmet/bascinet,
-		"Sallet"				= /obj/item/clothing/head/roguetown/helmet/sallet,
-		"Visored Sallet"		= /obj/item/clothing/head/roguetown/helmet/sallet/visored,
-		"Hounskull Bascinet" 	= /obj/item/clothing/head/roguetown/helmet/bascinet/pigface/hounskull,
-		"Etruscan Bascinet" 	= /obj/item/clothing/head/roguetown/helmet/bascinet/etruscan,
+		"Pigface Bascinet" 	= /obj/item/clothing/head/roguetown/helmet/bascinet/pigface,
+		"Guard Helmet"		= /obj/item/clothing/head/roguetown/helmet/heavy/guard,
+		"Barred Helmet"		= /obj/item/clothing/head/roguetown/helmet/heavy/sheriff,
+		"Bucket Helmet"		= /obj/item/clothing/head/roguetown/helmet/heavy/bucket,
+		"Knight Helmet"		= /obj/item/clothing/head/roguetown/helmet/heavy/knight,
+		"Visored Sallet"	= /obj/item/clothing/head/roguetown/helmet/sallet/visored,
+		"Hounskull Bascinet" = /obj/item/clothing/head/roguetown/helmet/bascinet/pigface/hounskull,
+		"Etruscan Bascinet" = /obj/item/clothing/head/roguetown/helmet/bascinet/etruscan,
+		"sheriff"				= /obj/item/clothing/head/roguetown/helmet/heavy/sheriff
+		"wolf"					= /obj/item/clothing/head/roguetown/helmet/heavy/wolfplate
+		"Armet"					= /obj/item/clothing/head/roguetown/helmet/heavy/knight/armet
+		"Heavy Knight"			= /obj/item/clothing/head/roguetown/helmet/heavy/knight
 		"None"
 	)
 	var/helmchoice = input("Choose your Helm.", "TAKE UP HELMS") as anything in helmets
