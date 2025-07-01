@@ -13,7 +13,7 @@
 /datum/statpack/wildcard/frail
 	name = "Frail"
 	desc = "The growing dark limns your vision more with every passing day: your flesh and mind are failing you, and destiny has turned her gaze from you. How will your tale endure such hardship?"
-	stat_array = list(STAT_STRENGTH = -4, STAT_PERCEPTION = -4, STAT_INTELLIGENCE = -4, STAT_CONSTITUTION = -4, STAT_ENDURANCE = -4, STAT_SPEED = -4, STAT_FORTUNE = -4)
+	stat_array = list(STAT_STRENGTH = -4, STAT_PERCEPTION = -4, STAT_INTELLIGENCE = -4, STAT_CONSTITUTION = -4, STAT_ENDURANCE = -4, STAT_SPEED = -4, STAT_FORTUNE = 8) //honestly? kinda based. God has to give them something right?
 
 /datum/statpack/wildcard/austere
 	name = "Austere"
