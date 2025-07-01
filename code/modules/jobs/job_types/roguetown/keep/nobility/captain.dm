@@ -447,7 +447,7 @@
 	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_KNIGHTSMAN, TRAIT_GENERIC) 		//The knightly-est knight to ever knight in the realm.
 	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_NOSTINK, TRAIT GENERIC)
+	ADD_TRAIT(H, TRAIT_NOSTINK, TRAIT_GENERIC)
 	H.mind.capped_arcane_melee = SKILL_LEVEL_CAPPED_ARCANE_ELITE
 	H.verbs |= list(/mob/living/carbon/human/proc/request_outlaw, /mob/proc/haltyell, /mob/living/carbon/human/mind/proc/setorders)
 	H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/greenflameblade) 
