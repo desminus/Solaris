@@ -462,12 +462,7 @@
 		H.mind.adjust_skillrank(/datum/skill/misc/tracking, 4, TRUE)
 		H.change_stat("perception", 2)
 		H.change_stat("intelligence", 3)
-		H.change_stat("Speed", 2)
-		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/order/movemovemove)
-		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/order/takeaim)
-		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/order/onfeet)
-		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/order/hold)
-		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/order/focustarget)	
+		H.change_stat("Speed", 2)	
 		ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 
 
