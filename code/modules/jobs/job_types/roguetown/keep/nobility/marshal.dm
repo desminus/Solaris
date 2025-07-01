@@ -115,7 +115,7 @@
 /datum/advclass/marshal/renalla
 	name = "Magic Knight General"
 	tutorial = "Someone who offered his power and devotion to unknown rites, now wields them to command forces at his beck and call in the name of sunmarch"
-	outfit = /datum/outfit/job/roguetown/captain/carian
+	outfit = /datum/outfit/job/roguetown/marshal/renalla
 	category_tags = list(CTAG_MARSHAL)
 
 /datum/outfit/job/roguetown/marshal/renalla/pre_equip(mob/living/carbon/human/H)

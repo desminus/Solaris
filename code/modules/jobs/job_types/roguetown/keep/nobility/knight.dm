@@ -441,7 +441,7 @@
 /datum/advclass/knight/arcane
 	name = "Arcane Knight"
 	tutorial = "Someone who has braved many of the dangers of the world to knighthood, now on the precipe of swearing their being to the unknown to protect the sunmarch"
-	outfit = /datum/outfit/job/roguetown/captain/carian
+	outfit = /datum/outfit/job/roguetown/knight/arcane
 	category_tags = list(CTAG_ROYALGUARD)
 
 /datum/outfit/job/roguetown/knight/arcane/pre_equip(mob/living/carbon/human/H)
